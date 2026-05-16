@@ -194,3 +194,58 @@ stock_selector/
 ## License
 
 MIT License
+
+# Directory Structure
+
+├── .windsurf
+│   └── workflows
+│       ├── model.md
+├── docs
+│   ├── USAGE_GUIDE.md
+├── examples
+│   ├── basic_usage.py
+├── stock_selector
+│   ├── fundamental_analysis
+│   │   ├── __init__.py
+│   │   ├── analyzer.py
+│   ├── news_sentiment
+│   │   ├── __init__.py
+│   │   ├── analyzer.py
+│   ├── technical_analysis
+│   │   ├── __init__.py
+│   │   ├── analyzer.py
+│   └── utils
+│       ├── __init__.py
+│       ├── helpers.py
+│   ├── __init__.py
+│   ├── __main__.py
+│   ├── cli.py
+│   ├── stock_selector.py
+└── webapp
+    ├── static
+    │   ├── css
+    │   │   ├── style.css
+    │   └── js
+    │       ├── app.js
+    │       ├── autocomplete.js
+    │       ├── chart.js
+    └── templates
+        ├── index.html
+    ├── .gitignore
+    ├── DEPLOYMENT.md
+    ├── NGINX_SETUP.md
+    ├── Procfile
+    ├── README.md
+    ├── app.py
+    ├── gunicorn.service
+    ├── nginx.conf
+    ├── patch_html.py
+    ├── render.yaml
+    ├── requirements.txt
+    ├── runtime.txt
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── setup.py
+
+# End Directory Structure
